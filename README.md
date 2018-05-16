@@ -21,14 +21,16 @@ environment to reproduce the results (unpacking step).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/reprozip-jupyter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/reprozip-jupyter-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/reprozip-jupyter-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/reprozip-jupyter-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/reprozip-jupyter-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/reprozip-jupyter-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/data-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/data-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/data-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/data-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/data-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/reprozip-jupyter/badges/version.svg)](https://anaconda.org/conda-forge/reprozip-jupyter)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/reprozip-jupyter/badges/downloads.svg)](https://anaconda.org/conda-forge/reprozip-jupyter)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-reprozip--jupyter-green.svg)](https://anaconda.org/conda-forge/reprozip-jupyter) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/reprozip-jupyter.svg)](https://anaconda.org/conda-forge/reprozip-jupyter) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/reprozip-jupyter.svg)](https://anaconda.org/conda-forge/reprozip-jupyter) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/reprozip-jupyter.svg)](https://anaconda.org/conda-forge/reprozip-jupyter) |
 
 Installing reprozip-jupyter
 ===========================

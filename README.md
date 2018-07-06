@@ -21,9 +21,8 @@ environment to reproduce the results (unpacking step).
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/data-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/data-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/data-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/data-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/data-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/reprozip-jupyter-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/reprozip-jupyter-feedstock)
 
 Current release info
 ====================

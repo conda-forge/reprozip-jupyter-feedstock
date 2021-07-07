@@ -1,6 +1,6 @@
 {% set name = "reprozip-jupyter" %}
-{% set version = "1.0.14" %}
-{% set sha256 = "d5da6f66555d705158de65391108521e5d4517d86c4ebac61155d14f9a141b08" %}
+{% set version = "1.1" %}
+{% set sha256 = "4c3228434112c65f8597d5cb1136a12ccca679f302249aba0d3168e5d5eaea67" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=2.7,<3|>=3.5
     - setuptools
   run:
-    - python
+    - python >=2.7,<3|>=3.5
     - setuptools
     - rpaths >=0.8
     - reprounzip >=1.0
@@ -39,7 +39,7 @@ test:
     - reprozip-jupyter --help
 
 about:
-  home: http://github.com/ViDA-NYU/reprozip
+  home: http://github.com/VIDA-NYU/reprozip
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -53,7 +53,7 @@ about:
     (packing step). A reviewer can then extract the experiment in his
     environment to reproduce the results (unpacking step).
   doc_url: https://docs.reprozip.org/
-  dev_url: https://github.com/ViDA-NYU/reprozip
+  dev_url: https://github.com/VIDA-NYU/reprozip
 
 extra:
   recipe-maintainers:

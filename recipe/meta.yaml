@@ -1,6 +1,6 @@
 {% set name = "reprozip-jupyter" %}
-{% set version = "1.1" %}
-{% set sha256 = "4c3228434112c65f8597d5cb1136a12ccca679f302249aba0d3168e5d5eaea67" %}
+{% set version = "1.2" %}
+{% set sha256 = "366a05e59dc438e7e41bcde04f15e4759e41c41960b99d9983fd19f714f8470c" %}
 
 package:
   name: {{ name|lower }}
